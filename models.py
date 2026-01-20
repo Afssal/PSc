@@ -2,6 +2,7 @@ from crewai import LLM
 import os
 from dotenv import load_dotenv
 
+
 load_dotenv()
 
 gemini_api = os.getenv('GEMINI_API_KEY')
